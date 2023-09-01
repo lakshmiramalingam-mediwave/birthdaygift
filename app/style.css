@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #a2d2ff;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    align-item:center;
+
+
+}
+    
+h1, h2, h4 ,h3, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bff-img{
+width:100px;
+border-radius: 50%;
+border:6px solid #EfB0C9;
+margin-bottom: 10px;
+}
+#bday-age {
+    background-color: #EfB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+    
+    
+}
+#bday-date {
+  background-color: #EfB0C9;
+  padding: 5px 10 px;
+  border-radius:5px;
+  margin:5px  0 10px 0;  
+}
+#header {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width:400px;
+    height: 400px;
+    border:6px solid white;
+    border-radius: 10 px;
+    background-image :url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lmdCUyMGJveHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+
+}
+
+#gift-img-hot:hover{
+    background-image:url("https://media4.giphy.com/media/L0yEL1eQeJ8xyb66Jl/giphy.gif?cid=ecf05e47wg0hq62df41rqjm66su82eggguneqwcstetlddib&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+#gift-img-genious:hover{
+    background-image:url("https://media3.giphy.com/media/KCn1SXV7gAlXgc0MOu/giphy.gif?cid=ecf05e47tx1a4kcgc1mko361y1djj7xeksghmvmebt0frds0&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+#gift-img-badass:hover{
+    background-image:url("https://media3.giphy.com/media/JL7ZkACcStPIiEVdGO/giphy.gif?cid=ecf05e47wg0hq62df41rqjm66su82eggguneqwcstetlddib&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+#gift-img-cheers{
+
+    height:200px;
+}
+#gift-img-cheers:hover{
+
+    background-image:url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif?cid=ecf05e47gybhgs5phbo5c41r6j37v1dkjcvh63quteuhd8ph&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
